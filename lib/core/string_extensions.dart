@@ -1,9 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-// Use this to import
-// import 'package:horizon/src/utils/string_extensions.dart';
-
 /// [StringUtil] is used to check whether the value of string is null or empty
 extension StringUtil on String {
   bool get isNullOrEmpty {
